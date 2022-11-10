@@ -52,7 +52,7 @@ namespace Ex3
         }
         public Boolean Linearite(Point B, Point C)
         {
-            // On determine l'equation de la droit
+            // On determine l'equation de la droite
             float a = (B.y - x) / (B.x - x);
             float b = y - (a * x);
             return C.y == a * C.x + b;
