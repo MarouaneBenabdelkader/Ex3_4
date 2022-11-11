@@ -18,6 +18,7 @@ namespace Ex3
             this.x = x;
             this.y = y;
         }
+        public Point() { };
         public void SetX(float x = 0)
         {
             this.x = x;

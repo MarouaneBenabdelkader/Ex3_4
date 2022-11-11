@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Ex3_4
 {
-    public class Cercle
+    public class Cercle : Point
     {
-        private Point p;
+        private Point p = new Point();
         private int r;
         Cercle(Point p, int r)
         {
